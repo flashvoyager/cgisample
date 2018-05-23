@@ -1,12 +1,10 @@
 #!/usr/bin/perl
-
 use warnings; 
 use strict;
+use HTML::Parser;
 use CGI qw(:standard);
 use DBI;
-use HTML::Parser;
 use JSON;
-use utf8;
 
 # Database local
 my $driver = "SQLite";
