@@ -1,6 +1,6 @@
 # cgisample
 
-this is CGI sample with Perl with simple add and view appointment  system with simple sqllite database.
+this is CGI sample Perl with simple add and view appointment  system.
 
 a database must be created by running  in sqllite command line (linux):
     cat createSQLLite_table.sql | sqlite3 database.db
